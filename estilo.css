@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(20, 32, 38, 1);
+
+    font-family: 'Istok Web', sans-serif;
+  }
+
+  .menu {
+    width: 150px;
+    height: 300%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color:rgba(18, 49, 66, 1);
+    font-family: 'Istok Web', sans-serif;
+    color: rgba(233, 240, 201, 1);
+  }
+  
+
+  header {
+    background-color: rgba(20, 32, 38, 1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    color: rgba(233, 240, 201, 1);
+    font-size: 34px;
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Istok Web', sans-serif;
+    text-align: center;
+ 
+  }
+
+  .icones-header {
+    float:right ;
+    height: 100px;
+    width: 100px;
+  }
+  
+
+  
