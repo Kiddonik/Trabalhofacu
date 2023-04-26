@@ -4,8 +4,33 @@ body {
     font-family: 'Istok Web', sans-serif;
   }
 
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: block;
+    margin-bottom: 63px; /* Adiciona espaço abaixo de cada item */
+    position: relative;
+}
+img {
+  position: relative; /* Posiciona a imagem  */
+  top: 0; /* Alinha a imagem ao topo */
+  left: 0; /* Alinha a imagem à esquerda*/
+  height: 70px; /* Define a altura da imagem */
+  width: 70px; /* Define a largura da imagem */
+  margin-right: 7px; /* Adiciona espaço à direita */
+}
+    
+a {
+  display: contents; 
+  padding: 30px; 
+}
+
   .menu {
-    width: 150px;
+    width: 075px;
     height: 300%;
     top: 0;
     left: 0;
@@ -18,21 +43,30 @@ body {
 
   header {
     background-color: rgba(20, 32, 38, 1);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 4px rgba(255, 0, 0, 0.2);
     color: rgba(233, 240, 201, 1);
-    font-size: 34px;
-    margin: 1px;
+    font-size: 20px;
+    margin: -5px;
     padding: 1px;
     font-family: 'Istok Web', sans-serif;
     text-align: center;
  
   }
 
-  .icones-header {
-    float:right ;
+  .icones-header1 {
+    float:right;
+    padding: 10px;
     height: 100px;
-    width: 100px;
+    width: 65px;
   }
-  
+  .icones-header2 {
+    float:right;
+    padding: 10px;
+    height: 100px;
+    width: 60px;
+  }
+  .icons {
+    size : 30px;
+  }
 
-  
+ 
